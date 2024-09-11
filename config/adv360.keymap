@@ -30,11 +30,11 @@
         };
     };
 
-    dtilde: plus_kp_n1 {
+    dtilde: dollar_tilde {
         compatible = "zmk,behavior-mod-morph";
-        label = "plus_kp_n1";
+        label = "dollar_tilde";
         #binding-cells = <0>;
-        bindings = <&kp PLUS>, <&kp KP_N1>;
+        bindings = <&kp DOLLAR>, <&kp TILDE>;
         mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
     };
     pkp_n1: plus_kp_n1 {
